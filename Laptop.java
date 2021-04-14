@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class Laptop {
+	
+	Scanner s = new Scanner(System.in);
 
 	String brand;
 	String model;
 	String color;
 	String processor;
 	double price;
-	
-	Scanner s = new Scanner(System.in);
 	
 	 // Create Setter Method
 	  public void setBrand() {
