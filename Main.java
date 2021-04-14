@@ -9,7 +9,7 @@ public class Main {
 		d.setProcessor();
 		d.setPrice();
 		
-		System.out.println("--LAPTOP 1--");
+		System.out.println("--\nLAPTOP 1--");
 		System.out.println("Brand: " + d.getBrand());
 		System.out.println("Model: " + d.getModel());
 		System.out.println("Color: " + d.getColor());
@@ -26,7 +26,7 @@ public class Main {
 		v.setProcessor();
 		v.setPrice();	
 		
-		System.out.println("--LAPTOP2--");
+		System.out.println("--\nLAPTOP2--");
 		System.out.println("Brand: " + v.getBrand());
 		System.out.println("Model: " + v.getModel());
 		System.out.println("Color: " + v.getColor());
