@@ -26,7 +26,7 @@ public class Main {
 		v.setProcessor();
 		v.setPrice();	
 		
-		System.out.println("--ASUS--");
+		System.out.println("--LAPTOP2--");
 		System.out.println("Brand: " + v.getBrand());
 		System.out.println("Model: " + v.getModel());
 		System.out.println("Color: " + v.getColor());
