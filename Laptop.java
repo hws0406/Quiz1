@@ -31,6 +31,7 @@ public class Laptop {
 	  }
 	  
 	  public void setPrice() {
+		  System.out.println("Enter price: ");
 		  this.price = s.nextDouble();
 	  }
 
