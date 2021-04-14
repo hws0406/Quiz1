@@ -11,27 +11,27 @@ public class Laptop {
 	Scanner s = new Scanner(System.in);
 	
 	 // Create Setter Method
-	  public void setBrand(String brand) {
+	  public void setBrand() {
 		  System.out.println("Enter brand: ");
 		  this.brand = s.nextLine();
 	  }
 	  
-	  public void setModel(String model) {
+	  public void setModel() {
 		  System.out.println("Enter model: ");
 		  this.model = s.nextLine();
 	  }
 	  
-	  public void setColor(String color) {
+	  public void setColor() {
 		  System.out.println("Enter color: ");
 		  this.color = s.nextLine();
 	  }
 	  
-	  public void setProcessor(String processor) {
+	  public void setProcessor() {
 		  System.out.println("Enter processor type: ");
 		  this.processor = s.nextLine();
 	  }
 	  
-	  public void setPrice(double price) {
+	  public void setPrice() {
 		  this.price = s.nextDouble();
 	  }
 
